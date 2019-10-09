@@ -1,0 +1,101 @@
+.container {
+    padding: 1%;
+}
+
+.header {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: #eee;
+}
+
+.content {
+    display: flex;
+    padding: 20px 0;
+}
+
+.main {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2000px;
+    margin-right: 10px;
+    background: #ccc;
+    background: linear-gradient(to bottom, #eeeeee 0%,#B7EAE0 100%);
+}
+
+.sides{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    width: 140px;
+    height: 140px;
+    color: #fff;
+    padding-top: 45px;
+    margin: 0px;
+}
+
+.side {
+    max-width: 140px;
+	margin: 0;
+    padding: 0;
+    top: 0px;
+}
+
+.side a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #000000;
+	line-height: 1;
+}
+.side label {
+	display: block;
+	position: relative;
+	margin: 0 0 2px 0;
+	padding: 12px;
+	line-height: 1;
+	color: #ffffff;
+	background: #1b2538;
+	cursor: pointer;
+}
+.side label::before {
+	position: absolute;
+	color: #ffffff;
+	right: 0.5em;
+	top: 25%;
+}
+.side input {
+	display: none;
+}
+.side ul {
+	margin: 0;
+	padding: 0;
+	background: #f4f4f4;
+	list-style: none;
+}
+.side li {
+	overflow-y: hidden;
+	max-height: 0;
+	transition: all 0.5s;
+}
+/*リストが増えたらULごとに追加してください*/
+#side_bar1:checked ~ #link1 li,
+#side_bar2:checked ~ #link2 li {
+	max-height: 46px;
+	opacity: 1;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: #eee;
+  }
