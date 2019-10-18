@@ -37,20 +37,20 @@ body{
 
 .sides{
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-    width: 100px;
+    width: 170px;
     height: 140px;
     color: #fff;
-    padding-top: 45px;
+    padding-top: 0px;
     margin: 0px;
 }
 
 .side {
-    width: 100px;
+    width: 170px;
 	margin: 0;
     padding: 0;
     top: 0px;
@@ -103,10 +103,17 @@ body{
 	opacity: 1;
 }
 
+div.white{
+    margin-left: auto;
+    background: #fff;
+    height: 40px;
+    width: 221px;
+}
+
+
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    background: #fcfcfc;
+    text-align: right;
+    font-size: 10px;
+    color: #fff;
+    margin-right: 0px;
   }
