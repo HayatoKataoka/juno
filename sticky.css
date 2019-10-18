@@ -1,15 +1,23 @@
+body{
+    background-image: url("image/background.jpg")
+}
+
 .container {
     padding: 1%;
 }
 
 .header {
-    font-size: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100px;
-    background: #eee;
+    height: 50px;
+    color: #eee;
+    font-size: 40px;
 }
+
+.logo{
+    margin-left: 5px;
+    margin-top: 5px;
+  }
 
 .content {
     display: flex;
@@ -21,8 +29,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 2000px;
-    margin-right: 10px;
+    min-height: 440px;
+    margin-left: 10px;
     background: #ccc;
     background: linear-gradient(to bottom, #eeeeee 0%,#B7EAE0 100%);
 }
@@ -34,7 +42,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-    width: 140px;
+    width: 100px;
     height: 140px;
     color: #fff;
     padding-top: 45px;
@@ -42,7 +50,7 @@
 }
 
 .side {
-    max-width: 140px;
+    width: 100px;
 	margin: 0;
     padding: 0;
     top: 0px;
@@ -61,13 +69,13 @@
 	margin: 0 0 2px 0;
 	padding: 12px;
 	line-height: 1;
-	color: #ffffff;
-	background: #1b2538;
+	color: #fff;
+	background: #5887ff;
 	cursor: pointer;
 }
 .side label::before {
 	position: absolute;
-	color: #ffffff;
+	color: #fcfcfc;
 	right: 0.5em;
 	top: 25%;
 }
@@ -87,7 +95,10 @@
 }
 /*リストが増えたらULごとに追加してください*/
 #side_bar1:checked ~ #link1 li,
-#side_bar2:checked ~ #link2 li {
+#side_bar2:checked ~ #link2 li,
+#side_bar3:checked ~ #link3 li,
+#side_bar4:checked ~ #link4 li,
+#side_bar5:checked ~ #link5 li {
 	max-height: 46px;
 	opacity: 1;
 }
@@ -97,5 +108,5 @@
     align-items: center;
     justify-content: center;
     height: 100px;
-    background: #eee;
+    background: #fcfcfc;
   }
