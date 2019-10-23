@@ -1,5 +1,5 @@
 body{
-    background-image: url("image/background.jpg")
+    background-image: url("image/template/background.jpg")
 }
 
 .container {
@@ -27,18 +27,34 @@ body{
 .main {
     flex: 1 0 auto;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
+    text-align: left;
+    vertical-align: top;
+    width: 1140px;
     min-height: 440px;
     margin-left: 10px;
     background: #ccc;
     background: linear-gradient(to bottom, #eeeeee 0%,#B7EAE0 100%);
 }
 
+.top{
+    font-size: 20px;
+}
+
+.br{
+    letter-spacing:normal;
+}
+
+.txt{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
 .sides{
     display: flex;
     align-items: top;
-    justify-content: center;
+    justify-content: left;
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
