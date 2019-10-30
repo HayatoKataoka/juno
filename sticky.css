@@ -57,6 +57,14 @@ body{
     padding-right: 30px;
 }
 
+.photo-jupi-kami1{
+  text-align: center;
+}
+
+.photo-jupi-kami2{
+  text-align: center;
+}
+
 .sides{
     display: flex;
     align-items: top;
