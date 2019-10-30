@@ -30,6 +30,7 @@ body{
     width: 1000px;
     min-height: 440px;
     margin-left: 40px;
+    padding: 50px;
     background: #ccc;
     background: linear-gradient(to bottom, #eeeeee 0%,#B7EAE0 100%);
 }
@@ -38,7 +39,9 @@ body{
     text-align: center;
     font-size: 25px;
     border-bottom: 1px solid #5887ff;
-    padding: 10px;
+    border-top: 1px solid #5887ff;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 2px;
 }
 
@@ -46,15 +49,41 @@ body{
     text-align: left;
     font-size: 17px;
     line-height: 2em;
-    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .note{
     text-align: left;
+    text-indent: -2.6em;
     font-size: 15px;
     line-height: 1.5em;
-    padding-left: 30px;
+    padding-left: 2.6em;
     padding-right: 30px;
+}
+
+.note_box{
+    padding: 0.3em 0.3em;
+    border: double 5px #fffb46;
+}
+
+.pic{
+    display: block;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.pic_text{
+    text-align: center;
+    text-indent: -2.8em;
+    padding-left: 2.8em;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 380px;
 }
 
 .sides{
