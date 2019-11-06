@@ -98,6 +98,16 @@ body{
   text-align: center;
 }
 
+.span_20{
+    display: inline-block;
+    width: 20em;
+}
+
+.span_10{
+    display: inline-block;
+    width: 10em;
+}
+
 .sides{
     display: flex;
     align-items: top;
