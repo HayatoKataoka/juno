@@ -3,25 +3,26 @@ body{
 }
 
 .container {
-    padding-left: 160px;
-    padding-right: 160px;
+    
 }
 
 .header {
     display: flex;
     align-items: center;
+    margin-left: 170px;
     height: 50px;
     color: #eee;
     font-size: 40px;
 }
 
 .logo{
-    margin-left: 5px;
     margin-top: 5px;
   }
 
 .content {
     display: flex;
+    margin:0 auto;
+    width: 1013px;
     padding: 30px 0;
 }
 
@@ -209,9 +210,9 @@ div.white{
 
 
 .footer {
-    min-width: 792px;
     text-align: right;
     font-size: 10px;
     color: #fff;
     margin-right: 0px;
+    margin-left: auto;
   }
