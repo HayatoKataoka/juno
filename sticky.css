@@ -3,9 +3,8 @@ body{
 }
 
 .container {
-    padding: 1%;
-    margin-left: 7%;
-    margin-right: 7%;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 .header {
@@ -27,8 +26,9 @@ body{
 }
 
 .main {
-    width: 1000px;
-    min-height: 440px;
+    display: inline-block;
+    min-width: 673px;
+    min-height: 1000px;
     margin-left: 40px;
     padding: 50px;
     background: #ccc;
@@ -122,13 +122,23 @@ body{
     width: 700px;
 }
 
+img.link{
+    width: 300px;
+}
+
+.link_inst{
+    text-align: left;
+    font-size: 17px;
+    line-height: 2em;
+}
+
 .sides{
     display: flex;
     align-items: top;
     justify-content: left;
     position: -webkit-sticky;
     position: sticky;
-    top: 0px;
+    top: 40px;
     width: 200px;
     height: 140px;
     color: #fff;
@@ -190,6 +200,7 @@ body{
 }
 
 div.white{
+    text-align: right;
     margin-left: auto;
     background: #fff;
     height: 40px;
@@ -198,6 +209,7 @@ div.white{
 
 
 .footer {
+    min-width: 792px;
     text-align: right;
     font-size: 10px;
     color: #fff;
